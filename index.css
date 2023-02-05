@@ -1,0 +1,142 @@
+html {
+    /* background-color: #273549; */
+    background-image: linear-gradient(#10B981,#273549);
+}
+
+body {
+    width: 500px;
+    background-color: #ECFDF5;
+    margin: 30px auto;
+    padding: 15px;
+    border: 7px solid #273549;
+    border-radius: 5px;
+    box-shadow: 5px 1px #C3DFCD;
+}
+
+h1 {
+    color: #2B283A;
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: -0.05em;
+}
+
+.green-text {
+    color: #10B981;
+    text-shadow: 0px 0px 5px red;
+}
+
+#cta {
+    display: flex;
+    margin: auto;
+    width: 290px;
+    color: white;
+    background-color: #273549;
+    border-bottom: 3px solid #10B981;
+    border-radius: 3px;
+}
+
+#link {
+    color: navy;
+    font-weight: 800;
+}
+
+h4 {
+    color: #273549;
+    font-weight: 800;
+    text-decoration: unset;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+#reccomendations {
+    background-image: linear-gradient(#10B981,#273549);
+    border-radius: 5px;
+}
+
+h5 {
+    color: #D5D4D8;
+    font-weight: bold;
+    font-family:  sans-serif;
+    text-shadow: 0px 0px 1px;
+}
+
+#pass-btn {
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #10B981;
+    padding: 10px;
+    border: 1px solid #10B981;
+    border-radius: 5px;
+    color: #D5D4D8;
+    text-shadow: 1px 0px 5px black;
+}
+
+#pass-btn:hover {
+    background-image:linear-gradient(#273549,#10B981,#6DB0AA);
+    border: 3px solid #273549;
+}
+
+#mfa {
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #10B981;
+    padding: 10px;
+    border: 1px solid #10B981;
+    border-radius: 5px;
+    color: #D5D4D8;
+    text-shadow: 1px 0px 1px black;
+
+}
+
+#mfa:hover {
+    background-image:linear-gradient(#273549,#10B981,#6DB0AA);
+    border: 3px solid #1F605A;
+    
+}
+
+p {
+    display: inline-flex;
+    margin: 9px;
+    margin-bottom: 20px;
+    width: auto;
+    padding: 10px;
+    background-color: #273549;
+    
+    border-radius: 5px;
+    color: #10B981;
+    align-items: center;
+}
+
+p:hover {
+    border: 3px dashed #10B981;
+}
+
+hr {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 410px;
+    border: 1px solid #D5D4D8;
+}
+
+#passwords {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    background-image: linear-gradient(#273549, #10B981);
+    border-radius: 10px
+}
+
+#footer {
+    font-size: 10px;
+}
