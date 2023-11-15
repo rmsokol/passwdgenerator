@@ -2,37 +2,21 @@
     
     <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="index.js"></script> 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Karla:wght@200;400;800&display=swap" rel="stylesheet">
     </head>
     
     <body>
-        <h1>Generate a <br> <span class="green-text"> random password </span></h1>
-        <h4 id="cta">Never use an insecure password again.</h4>
-        <div id="reccomendations">
-        <h4> <a id="link" href="https://www.cisa.gov/uscert/ncas/current-activity/2018/03/27/Creating-and-Managing-Strong-Passwords">Secure passwords</a> should: </h4>
-        <ul>
-            <li> Be <i>twelve</i> characters or longer</li> 
-            <li>  Incorporate <span class="green-text"> complexity</span></li>
-            <li> And, not be easily guessed! </li>
-        </ul>
-        
-            <h5><center> Click the button for two fifteen character passwords you can use today.</h5></center>
-            </div>
+        <h1>Generate a <br> <span id="green-text"> random password </span></h1>
+        <h4>Never use an insecure password again.</h4>
         <button id="pass-btn" onclick="render()">Generate Passwords</button>
-        
         <hr>
         <div id="passwords">
             <p id="pass-1"> </p>
             <p id="pass-2"> </p> 
         </div>
-        <hr>
-        <button id="mfa"><a href="https://www.nist.gov/blogs/cybersecurity-insights/back-basics-whats-multi-factor-authentication-and-why-should-i-care"> Click here to learn about MFA </a></button>
-       <script type="module" src="index.js"></script> 
     </body>
-    <div id="footer"><center><i> © 2023 Rachel Sokol <i></center>
-    </div>
-    
+    <footer><h5>© 2023 Rachel Sokol</h5></footer>
 </html>
